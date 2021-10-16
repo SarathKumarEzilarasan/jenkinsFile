@@ -13,7 +13,7 @@ public class StepDefinitions {
     }
 
     @When("I wait {int} hour")
-    public void iWaitHour(int arg0) {
+    public void iWaitHour(int arg0) throws Exception{
       Assert.assertEquals(1,0);
         throw new Exception();
     }
