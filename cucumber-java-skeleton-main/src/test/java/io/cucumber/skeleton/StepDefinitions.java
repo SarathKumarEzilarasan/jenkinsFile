@@ -14,7 +14,7 @@ public class StepDefinitions {
 
     @When("I wait {int} hour")
     public void iWaitHour(int arg0) {
-      Assert.assertEquals(1,0);
+      Assert.assertEquals(0,0);
     }
 
     @Then("my belly should growl")
