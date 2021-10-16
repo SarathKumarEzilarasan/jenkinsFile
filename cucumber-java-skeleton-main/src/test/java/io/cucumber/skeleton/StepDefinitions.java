@@ -3,6 +3,7 @@ package io.cucumber.skeleton;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 
 public class StepDefinitions {
     @Given("I have {int} cukes in my belly")
@@ -13,7 +14,7 @@ public class StepDefinitions {
 
     @When("I wait {int} hour")
     public void iWaitHour(int arg0) {
-
+      Assert.assertEquals(1,0);
     }
 
     @Then("my belly should growl")
