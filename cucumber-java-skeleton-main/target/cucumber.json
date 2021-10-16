@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-15T13:51:58.581Z",
+        "line": 3,
+        "name": "a few cukes",
+        "description": "",
+        "id": "belly;a-few-cukes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have 42 cukes in my belly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "42",
+                  "offset": 7
+                }
+              ],
+              "location": "io.cucumber.skeleton.StepDefinitions.I_have_cukes_in_my_belly(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I wait 1 hour",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 7
+                }
+              ],
+              "location": "io.cucumber.skeleton.StepDefinitions.iWaitHour(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "my belly should growl",
+            "match": {
+              "location": "io.cucumber.skeleton.StepDefinitions.myBellyShouldGrowl()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Belly",
+    "description": "",
+    "id": "belly",
+    "keyword": "Feature",
+    "uri": "classpath:io/cucumber/skeleton/belly.feature",
+    "tags": []
+  }
+]
